@@ -1,5 +1,10 @@
 # AWS Cloud Practitioner Study Guide
 
+
+![images-aws-clud-main-image](https://github.com/user-attachments/assets/14d44267-ae1c-4737-8aa6-1065d91f3664)
+
+
+
 Welcome to your comprehensive guide for conquering the AWS Certified Cloud Practitioner exam! Whether you're just starting your cloud journey or looking to solidify your understanding of AWS fundamentals, this resource is designed to equip you with the knowledge and confidence to succeed. We'll cover essential concepts, best practices, and real-world scenarios, ensuring you're fully prepared to leverage the power of the AWS Cloud.
 
 ## Resources:
@@ -9,7 +14,7 @@ Welcome to your comprehensive guide for conquering the AWS Certified Cloud Pract
 - ### [AWS Cloud Essentials](https://aws.amazon.com/getting-started/cloud-essentials/)
 
 
-## Author: {Type your name here}
+## Author: {Donna " Dee' Hardy}
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://emiliedionisio.github.io/) <!--Replace with your GitHub Page here -->
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emdionisio/) <!--Replace with your LinkedIn Page here -->
 
