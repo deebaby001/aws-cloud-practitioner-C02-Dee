@@ -1,0 +1,79 @@
+Domain 3: Cloud Technologies - Due on August 8th at 10PM
+
+AWS Educate (https://aws.amazon.com/education/awseducate/Links to an external site.)
+Study and do the following:
+Getting Started with Networking (Lab) 
+Optional Resource: Use AWS Skill BuilderLinks to an external site. (Module 4 Networking) for additional resources to answer the questions below. 
+Getting Started with Storage (Lab) 
+Getting Started with Databases (Lab)
+Optional Resource: Use AWS Skill BuilderLinks to an external site. (Module 5 Storage and Databases) for additional resources to answer the questions below.
+Do the assessment and claim your badges at AWS Educate; post in your Credly and LinkedIn page to showcase your badge to potential employers.
+Study Guide: Provide link to your Study Guide (Google Docs, GitHub, or Notion.so). Answer the following questions below by category to prepare you for the exam and use it as your study guide cheat sheet.
+Networking:
+
+What is a VPC in AWS, and why is it important?
+What is a subnet, and how is it used in a VPC?
+What is an Internet Gateway, and what role does it play in a VPC?
+What is a NAT Gateway, and why would you use it in a VPC?
+What is a Route Table, and how does it function in a VPC?
+What is a VPC Peering Connection, and what are its use cases?
+What is a Security Group, and how does it enhance security in a VPC?
+What is a Network ACL (Access Control List), and how does it differ from a Security Group?
+How do you use Network ACLs to enhance security within a VPC?
+What is an Elastic IP Address, and how is it used in a VPC?
+What is a Virtual Private Gateway, and how does it function in a VPC?
+What is Amazon Route 53, and what are its primary functions?
+What is the purpose of DNS in the context of Route 53?
+How does Route 53 provide high availability and reliability for DNS queries?
+What is geolocation routing in Route 53, and what are its benefits?
+What is Amazon CloudFront, and what are its primary functions?
+What are the benefits of using Amazon CloudFront?
+What is AWS Global Accelerator, and what is its purpose?
+What is the difference between Amazon CloudFront and AWS Global Accelerator?
+What is edge location in the context of Amazon CloudFront?
+What is AWS Direct Connect, and what are its primary benefits?
+What are common use cases for AWS Direct Connect?
+What is AWS VPN, and how does it differ from AWS Direct Connect?
+What types of AWS VPN connections are available?
+What is a Transit Gateway, and how does it benefit network connectivity?
+Storage:
+
+What is object storage typically used for in cloud computing?
+How does Amazon S3 handle durability and availability for object storage?
+What are some typical use cases for Amazon S3?
+What is the main difference between Amazon S3 Standard and Amazon S3 Standard-IA storage classes?
+What is the Amazon S3 Glacier storage class used for?
+How does Amazon S3 Intelligent-Tiering work, and what are its benefits?
+Explain the use case for Amazon S3 One Zone-IA.
+What is Amazon Elastic Block Store (Amazon EBS) and what are its primary use cases?
+What are the main types of EBS volumes and their characteristics?
+What is the difference between Amazon EBS and instance store?
+What are some common use cases for instance store volumes?
+Can you attach an EBS volume to multiple EC2 instances at the same time?
+What is the maximum size of a single Amazon EBS volume?
+How do you ensure the durability of data stored in Amazon EBS?
+What is Amazon EBS Snapshots and how are they used?
+Can you change the volume type of an existing Amazon EBS volume?
+What is Amazon Elastic File System (Amazon EFS) and what are its primary use cases?
+What are the key features of Amazon EFS?
+What is Amazon FSx and what file systems does it support?
+What are common use cases for Amazon FSx for Windows File Server?
+What are common use cases for Amazon FSx for Windows File Server?
+Can Amazon EFS be accessed from on-premises environments?
+What is the difference between Amazon EFS and Amazon FSx for Windows File Server?
+What are the performance modes available in Amazon EFS?
+Databases:
+
+What is Amazon RDS, and what are its key features?
+What are the benefits of Amazon RDS?
+What is Amazon DynamoDB, and what are its use cases?
+What is Amazon Aurora, and how does it differ from other RDS engines?
+What is Amazon Redshift, and what is it used for?
+What is AWS Database Migration Service (DMS), and what are its benefits?
+What is the Schema Conversion Tool (SCT) used for in AWS database migrations?
+What are the common steps involved in a database migration using AWS DMS?
+What are the benefits of using AWS managed databases over EC2-hosted databases?
+What are some of the AWS managed database services available?
+How does Amazon Aurora differ from Amazon RDS?
+Why might you choose Amazon DynamoDB for your application?
+What are the benefits of using Amazon Redshift for data warehousing?
