@@ -11,69 +11,69 @@ Do the assessment and claim your badges at AWS Educate; post in your Credly and 
 Study Guide: Provide link to your Study Guide (Google Docs, GitHub, or Notion.so). Answer the following questions below by category to prepare you for the exam and use it as your study guide cheat sheet.
 Networking:
 
-What is a VPC in AWS, and why is it important?
-What is a subnet, and how is it used in a VPC?
-What is an Internet Gateway, and what role does it play in a VPC?
-What is a NAT Gateway, and why would you use it in a VPC?
-What is a Route Table, and how does it function in a VPC?
-What is a VPC Peering Connection, and what are its use cases?
-What is a Security Group, and how does it enhance security in a VPC?
-What is a Network ACL (Access Control List), and how does it differ from a Security Group?
-How do you use Network ACLs to enhance security within a VPC?
-What is an Elastic IP Address, and how is it used in a VPC?
-What is a Virtual Private Gateway, and how does it function in a VPC?
-What is Amazon Route 53, and what are its primary functions?
-What is the purpose of DNS in the context of Route 53?
-How does Route 53 provide high availability and reliability for DNS queries?
-What is geolocation routing in Route 53, and what are its benefits?
+What is a VPC in AWS, and why is it important? VPC, a Virtual Private Cloud that is  a main component in of cloud computing
+What is a subnet, and how is it used in a VPC?  Subnets are a range of IP addresses within a VPC. Subnets are within VPCs to group subnets together
+What is an Internet Gateway, and what role does it play in a VPC? acts as a bridge between a Virtual Private Cloud (VPC) and the public internet, allowing network traffic to pass between the two.
+What is a NAT Gateway, and why would you use it in a VPC? A Network Address Translation (NAT) gateway is a managed service from Amazon Web Services (AWS) that allows instances in a private subnet to connect to the internet and other services outside of a virtual private cloud (VPC)
+What is a Route Table, and how does it function in a VPC? Route table is a set of rules, known as routes, that determines where network traffic is directed. Each subnet in your AWS Virtual Private Cloud (VPC) is associated with a route table that controls the traffic flow between subnets
+What is a VPC Peering Connection, and what are its use cases? VPC peering connection in Amazon Web Services (AWS) is a networking connection allowing private routing of traffic between two or more virtual private clouds (VPCs). This allows resources in peered VPCs to communicate with each other as if they were on the same network. 
+What is a Security Group, and how does it enhance security in a VPC?  Security group is a virtual firewall that controls network traffic to and from Amazon Elastic Compute Cloud EC2 instances and other VPC resources. Security groups are a key part of AWS cloud security and help to manage resource access.
+What is a Network ACL (Access Control List), and how does it differ from a Security Group? The packet must be on the list in order for it to be approved. List checked in and out. They differ in scope, state, default rules, IP blocking, Rule modifications, Associations
+How do you use Network ACLs to enhance security within a VPC? Network ACL acts as a firewall adding extra security by improving security: custom ACL’s, denying specific traffic segment the VPC, uses rules for DDoS attacks, monitor traffic
+What is an Elastic IP Address, and how is it used in a VPC? An Elastic IP (EIP) is a static public IP address used in Amazon's Virtual Private Cloud (VPC) to enable communication with the internet. EIPs are designed for the dynamic nature of cloud computing, allowing users to remap the address to a different instance in their VPC if one fails.
+What is a Virtual Private Gateway, and how does it function in a VPC? A Virtual Private Gateway (VGW) acts as a VPN endpoint for a Site-to-Site VPN connection on the Amazon side. It's a distributed edge routing function that's located at the edge of a VPC and can terminate VPN connections from on-premises or customer environments. Allows for: connectivity, route creation, VPN concentrator, attachment, compatibillity
+What is Amazon Route 53, and what are its primary functions? Amazon Route 53, you can create and manage your public DNS records. Route 53 connects user requests to internet applications running on AWS or on-premises
+What is the purpose of DNS in the context of Route 53? It translates human-readable domain names into numerical IP addresses that computers use to connect.
+How does Route 53 provide high availability and reliability for DNS queries?  This occurs through global network, anycast routing, shuffle sharding, health checks, DNS failover, latency-based routing
+What is geolocation routing in Route 53, and what are its benefits? directs traffic to specific resources based on a user's location. It benefits the customers when connecting to a business
 What is Amazon CloudFront, and what are its primary functions?
-What are the benefits of using Amazon CloudFront?
-What is AWS Global Accelerator, and what is its purpose?
-What is the difference between Amazon CloudFront and AWS Global Accelerator?
-What is edge location in the context of Amazon CloudFront?
-What is AWS Direct Connect, and what are its primary benefits?
-What are common use cases for AWS Direct Connect?
-What is AWS VPN, and how does it differ from AWS Direct Connect?
-What types of AWS VPN connections are available?
-What is a Transit Gateway, and how does it benefit network connectivity?
+What are the benefits of using Amazon CloudFront? AWS CloudFront a content delivery network (CDN) that improves the distribution of web content to users globally. It uses a network of edge locations and regional edge caches to store copies of content close to viewers, ensuring requests are served from the closest location.
+What is AWS Global Accelerator, and what is its purpose?  This  is a network layer service that helps improve the performance, security, and availability of applications for local and global users. It uses the AWS global network to route traffic to the closest healthy application endpoint in the same AWS Region as the user
+What is the difference between Amazon CloudFront and AWS Global Accelerator? They are both AWS services that use edge locations worldwide to improve application performance. However, they operate at different layers and have different views: CloudFront (Layer7) and Global Accelerator (Layer4)
+What is edge location in the context of Amazon CloudFront? A data center that’s part of a global network that delivers content.
+What is AWS Direct Connect, and what are its primary benefits? Improved performance, reduced networking costs, data protection and connectivity across regions.
+What are common use cases for AWS Direct Connect? Improved performance, reduced networking costs, data protection and connectivity across regions.
+
+What is AWS VPN, and how does it differ from AWS Direct Connect? Both options for connecting on-premises infrastructure to the Amazon Virtual Private Cloud (VPC). The main difference is that Direct Connect bypasses the public internet for a dedicated connection, while VPN uses the public internet to create an encrypted connection.
+What types of AWS VPN connections are available? Direct Connect provides a dedicated, high-bandwidth connection using fiber-optic cable, ranging from 1–100 Gbps. 
+What is a Transit Gateway, and how does it benefit network connectivity? connects multiple VPCs through a single gateway, simplifying connectivity and enabling centralized network management
 Storage:
 
-What is object storage typically used for in cloud computing?
-How does Amazon S3 handle durability and availability for object storage?
-What are some typical use cases for Amazon S3?
-What is the main difference between Amazon S3 Standard and Amazon S3 Standard-IA storage classes?
-What is the Amazon S3 Glacier storage class used for?
-How does Amazon S3 Intelligent-Tiering work, and what are its benefits?
-Explain the use case for Amazon S3 One Zone-IA.
-What is Amazon Elastic Block Store (Amazon EBS) and what are its primary use cases?
-What are the main types of EBS volumes and their characteristics?
-What is the difference between Amazon EBS and instance store?
-What are some common use cases for instance store volumes?
-Can you attach an EBS volume to multiple EC2 instances at the same time?
-What is the maximum size of a single Amazon EBS volume?
-How do you ensure the durability of data stored in Amazon EBS?
-What is Amazon EBS Snapshots and how are they used?
-Can you change the volume type of an existing Amazon EBS volume?
-What is Amazon Elastic File System (Amazon EFS) and what are its primary use cases?
-What are the key features of Amazon EFS?
-What is Amazon FSx and what file systems does it support?
-What are common use cases for Amazon FSx for Windows File Server?
-What are common use cases for Amazon FSx for Windows File Server?
-Can Amazon EFS be accessed from on-premises environments?
-What is the difference between Amazon EFS and Amazon FSx for Windows File Server?
-What are the performance modes available in Amazon EFS?
+What is object storage typically used for in cloud computing? is a cloud computing storage architecture that excels at handling large amounts of unstructured data, like videos, social media content, and sensor data. It's often the preferred method for storing backups, static content, and data archives.
+How does Amazon S3 handle durability and availability for object storage? S3 stores data redundantly across a minimum of 3 Availability Zones by default,
+What are some typical use cases for Amazon S3? Durabilty and storage
+What is the main difference between Amazon S3 Standard and Amazon S3 Standard-IA storage classes?  Main difference is for data that's accessed less often but needs to be available quickly when needed. S3 has lower storage price but higher retravel price.
+What is the Amazon S3 Glacier storage class used for? Provides data archiving
+How does Amazon S3 Intelligent-Tiering work, and what are its benefits? It stores objects in three access tiers: one tier optimized for frequent access, a lower-cost tier optimized for infrequent access, and a very-low-cost tier optimized for rarely accessed data.
+Explain the use case for Amazon S3 One Zone-IA. It stores data in a single AZ and costs 20% less than S3 Standard-IA.
+What is Amazon Elastic Block Store (Amazon EBS) and what are its primary use cases? It allows you to create storage volumes and attach them to Amazon EC2 instances
+What are the main types of EBS volumes and their characteristics? SSd Optimized for transactional workloads with frequent read/write operations and small I/O size. IOPS (input/output operations per second) measures performance, HDD-Designed for large sequential workloads where throughput is more important. MiB/s measures performance 
+What is the difference between Amazon EBS and instance store? Durabilty, performance and use
+What are some common use cases for instance store volumes? Faster performance,  and better workload
+Can you attach an EBS volume to multiple EC2 instances at the same time? Yesup to 16 instances at the same time.
+What is the maximum size of a single Amazon EBS volume? 64TiB
+How do you ensure the durability of data stored in Amazon EBS?Users have to create regular snapshots to back up. 99.8-99.9 durability
+What is Amazon EBS Snapshots and how are they used? It is a point-in-time copy of your data, and can be used to enable disaster recovery, migrate data across regions and accounts, and improve backup compliance
+Can you change the volume type of an existing Amazon EBS volume? Yes
+What is Amazon Elastic File System (Amazon EFS) and what are its primary use cases? provides the throughput, IOPS, and low latency needed for a broad range of workloads.
+What are the key features of Amazon EFS? Shared storage, scalable performance, backup services
+What is Amazon FSx and what file systems does it support? It provides fully managed Microsoft Windows file servers, backed by a fully native Windows file system
+What are common use cases for Amazon FSx for Windows File Server? Has features, performance, and compatibility.
+Can Amazon EFS be accessed from on-premises environments? Yes
+What is the difference between Amazon EFS and Amazon FSx for Windows File Server? EFS is better for Linux systems and NFS-based workloads, while FSx is better for Windows-based workloads and the SMB protocol
+What are the performance modes available in Amazon EFS? Elastic, Provisioned, and Bursting.
 Databases:
 
-What is Amazon RDS, and what are its key features?
-What are the benefits of Amazon RDS?
-What is Amazon DynamoDB, and what are its use cases?
-What is Amazon Aurora, and how does it differ from other RDS engines?
-What is Amazon Redshift, and what is it used for?
-What is AWS Database Migration Service (DMS), and what are its benefits?
-What is the Schema Conversion Tool (SCT) used for in AWS database migrations?
-What are the common steps involved in a database migration using AWS DMS?
-What are the benefits of using AWS managed databases over EC2-hosted databases?
-What are some of the AWS managed database services available?
-How does Amazon Aurora differ from Amazon RDS?
-Why might you choose Amazon DynamoDB for your application?
-What are the benefits of using Amazon Redshift for data warehousing?
+What is Amazon RDS, and what are its key features? It automates the undifferentiated database management tasks, such as provisioning, configuring, backups, and patching
+What are the benefits of Amazon RDS? Ease of use, choice of engines, high avaialbiility, operational knowledge.
+What is Amazon DynamoDB, and what are its use cases? Is a fully managed, serverless, NoSQL database service that can handle any amount of data and request traffic.
+What is Amazon Aurora, and how does it differ from other RDS engines? a high-performance, cloud-native database engine that's part of Amazon Web Services' (AWS) Relational Database Service (RDS).
+What is Amazon Redshift, and what is it used for?  Is a cloud-based data warehouse service that allows users to store and analyze large amounts of data
+What is AWS Database Migration Service (DMS), and what are its benefits? Is a managed service that helps migrate databases and analytics to the AWS cloud
+What is the Schema Conversion Tool (SCT) used for in AWS database migrations? It helps migrate databases to new platforms by automatically converting the source database schema and most of its code to a format compatible with the target database.
+What are the common steps involved in a database migration using AWS DMS? Replication instance, source Amazon RDS, AWS DMS Source Endpoint, Target Amazon S3 bucket, AWS DMS Task
+What are the benefits of using AWS managed databases over EC2-hosted databases? Main benefit automate management and maintenance also multiple access points; simplified setup
+What are some of the AWS managed database services available? DynamoDB, Aurora, Amazon RDS
+How does Amazon Aurora differ from Amazon RDS? Aurora is a dbt, RDS is a managed service for setting up and managing dtb
+Why might you choose Amazon DynamoDB for your application? It is serverless and costefective 
+What are the benefits of using Amazon Redshift for data warehousing? It is fully managed data warehouse service offering large scaled data analysis and storage.
